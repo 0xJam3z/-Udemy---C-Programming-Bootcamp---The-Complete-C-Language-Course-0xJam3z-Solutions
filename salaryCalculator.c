@@ -3,7 +3,6 @@
 #include <stdlib.h>
 
 int main() {
-    // 
     float payPerHour;
     int hoursWorked;
     printf("How much money do you make per hour? ");
