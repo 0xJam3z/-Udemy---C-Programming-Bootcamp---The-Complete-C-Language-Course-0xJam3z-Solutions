@@ -3,7 +3,6 @@
 #include <stdlib.h>
 
 int main() {
-    //Code
     int inputSeconds;
     int minutes, hours, secondsRemaining;
 
