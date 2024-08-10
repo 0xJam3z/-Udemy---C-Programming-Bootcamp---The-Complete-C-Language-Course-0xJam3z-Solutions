@@ -4,14 +4,17 @@
 #include <math.h>
 
 int main(){
-    int x;
+    int x, x2, x4, x6, x8;
     printf("Input an integer: ");
     scanf("%d", &x);
-    int xSqr = (x*x);
-    printf("%d to the power of 2 is %d\n", x, xSqr);
-    printf("%d to the power of 4 is %d\n", x, (xSqr*xSqr));
-    printf("%d to the power of 6 is %d\n", x, (xSqr*xSqr*xSqr));
-    printf("%d to the power of 8 is %d\n", x, (xSqr*xSqr*xSqr*xSqr));    
+    x2 = x*x;
+    x4 = x2*x2;
+    x6 = x4*x2;
+    x8 = x4*x4;
+    printf("%d to the power of 2 is %d\n", x, x2);
+    printf("%d to the power of 4 is %d\n", x, x4);
+    printf("%d to the power of 6 is %d\n", x, x6);
+    printf("%d to the power of 8 is %d\n", x, x8);    
 }
 /* 
 Note that this is not optimized for values above 2 billion as this was not the intent of this specific problemset from the lecture.
