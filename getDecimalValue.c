@@ -10,5 +10,5 @@ int main() {
     scanf("%f", &data);
     getWholeNumber = data;
     decimal = data - getWholeNumber;
-    printf("Decimal Value extracted is: %.1f", decimal);
+    printf("Decimal Value extracted is: %.1f\n", decimal);
 }
