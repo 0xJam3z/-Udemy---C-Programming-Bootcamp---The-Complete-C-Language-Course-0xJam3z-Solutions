@@ -10,5 +10,5 @@ int main() {
     digit1 = digits / 100;
     digit2 = (digits - (digit1*100)) / 10;
     digit3 = (digits - (digit1*100)) % 10;
-    printf("The sum of all three digits is: %d\n", (digit1+digit2+digit3)); 
+    printf("The sum of all three digits (%d) is: %d\n", digits, (digit1+digit2+digit3)); 
 }
