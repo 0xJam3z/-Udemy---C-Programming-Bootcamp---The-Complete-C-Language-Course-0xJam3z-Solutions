@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 int main() {
-    // Code
+    
     float data, decimal;
     int getWholeNumber;
     printf("Input a decimal number: ");
