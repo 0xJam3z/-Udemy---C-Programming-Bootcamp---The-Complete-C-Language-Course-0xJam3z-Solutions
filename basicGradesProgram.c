@@ -5,7 +5,8 @@
 int main() {
     
     int inputGrade;
-    scanf("Input grade: %d", &inputGrade);
+    printf("Input grade: ");
+    scanf("%d", &inputGrade);
     if (inputGrade >= 60)
         printf("Congratulations! \n");
     else
