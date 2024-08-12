@@ -20,4 +20,5 @@ int main() {
     sum_of_squares = dx + dy;
     distance = sqrt(sum_of_squares);
     printf("The distance between (%.2lf, %.2lf) and (%.2lf, %.2lf) is %.2lf\n", x1, y1, x2, y2, distance);
+    return 0;
 }

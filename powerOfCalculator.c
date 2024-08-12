@@ -15,6 +15,7 @@ int main(){
     printf("%d to the power of 4 is %d\n", x, x4);
     printf("%d to the power of 6 is %d\n", x, x6);
     printf("%d to the power of 8 is %d\n", x, x8);    
+    return 0;
 }
 /* 
 Note that this is not optimized for values above 2 billion as this was not the intent of this specific problemset from the lecture.

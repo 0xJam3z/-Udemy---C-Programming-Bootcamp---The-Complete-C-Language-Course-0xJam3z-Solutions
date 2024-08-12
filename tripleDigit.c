@@ -11,6 +11,7 @@ int main() {
     digit2 = (digits - (digit1*100)) / 10;
     digit3 = (digits - (digit1*100)) % 10;
     printf("The sum of all three digits (%d) is: %d\n", digits, (digit1+digit2+digit3)); 
+    return 0;
 }
 /*  A better solution would have been:
     digit1 = digits / 100;

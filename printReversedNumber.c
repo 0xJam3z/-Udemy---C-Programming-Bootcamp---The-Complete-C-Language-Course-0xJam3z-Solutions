@@ -11,4 +11,5 @@ int main() {
     tens = (digits / 10) % 10;
     units = digits % 10;
     printf("The inverse of %d is %d%d%d\n", digits, units, tens, hundreds);
+    return 0;
 }

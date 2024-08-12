@@ -12,4 +12,5 @@ int main() {
     minutes = (inputSeconds - hours * 3600) / 60; 
     secondsRemaining = (inputSeconds - hours * 3600) % 60;
     printf("%d hour(s) %d minutes %d seconds", hours, minutes, secondsRemaining);
+    return 0;
 }

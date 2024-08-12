@@ -10,5 +10,5 @@ int main() {
     printf("How many hours did you work this month? ");
     scanf("%d", &hoursWorked);
     printf("For the month you should receive: $%.2f\n", payPerHour * hoursWorked);
-
+    return 0;
 }

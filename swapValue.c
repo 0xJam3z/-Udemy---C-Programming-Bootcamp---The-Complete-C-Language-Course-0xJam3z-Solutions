@@ -14,4 +14,5 @@ int main() {
     a = b;
     b = c;
     printf("a: %.1lf, b: %.1lf\n", a, b);
+    return 0;
 }
