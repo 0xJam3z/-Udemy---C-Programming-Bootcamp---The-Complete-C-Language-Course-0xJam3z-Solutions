@@ -11,4 +11,5 @@ int main() {
         printf("The number %d is even\n", num);
     else
         printf("The number %d is odd\n", num);
+        return 0;
 }
