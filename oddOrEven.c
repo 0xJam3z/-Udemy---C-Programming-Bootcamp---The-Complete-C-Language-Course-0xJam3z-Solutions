@@ -1,9 +1,10 @@
-// Checks whether a number is even or odd
+// Checks whether a number is even or odd using simple if/else
 #include <stdio.h>
 #include <stdlib.h>
 
-int main() {
-    
+int main()
+{
+
     int num;
     printf("Input a number: ");
     scanf("%d", &num);
@@ -11,5 +12,5 @@ int main() {
         printf("The number %d is even\n", num);
     else
         printf("The number %d is odd\n", num);
-        return 0;
+    return 0;
 }
