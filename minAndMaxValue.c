@@ -4,7 +4,7 @@
 
 int main()
 {
-    float min, max, input1, input2;
+    float input1, input2;
 
     printf("Input a number: ");
     scanf("%f", &input1);
@@ -12,15 +12,11 @@ int main()
     scanf("%f", &input2);
     if (input1 > input2)
     {
-        max = input1;
-        min = input2;
-        printf("%.1f is maximum %.1f is minimum\n", max, min);
+        printf("%.1f is maximum %.1f is minimum\n", input1, input2);
     }
     else if (input2 > input1)
     {
-        max = input2;
-        min = input1;
-        printf("%.1f is maximum %.1f is minimum\n", max, min);
+        printf("%.1f is maximum %.1f is minimum\n", input2, input1);
     }
     else
     {
