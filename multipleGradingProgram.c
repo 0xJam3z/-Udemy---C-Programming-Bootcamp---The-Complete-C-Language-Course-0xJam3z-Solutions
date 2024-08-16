@@ -2,6 +2,8 @@
     If grade is less than 80 but higher than 60 print "Not bad!"
     If grade is less than 60 print "Oh, you failed."
 */
+#include <stdio.h>
+#include <stdlib.h>
 
 int main()
 {
