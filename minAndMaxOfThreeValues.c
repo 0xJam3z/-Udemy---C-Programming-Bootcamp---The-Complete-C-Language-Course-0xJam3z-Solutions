@@ -36,5 +36,16 @@ int main()
     return 0;
 }
 /*
-So we have a useless if condition here but I've already created this as a solution. Just know if you skim over this hopefully you'll see an if statement we can cut out!
+So this is not the most efficient method as you'll see from the video for this, but a solution nonetheless. A more proper way of doing this would have been
+    max = a;
+    min = b;
+    if(a<b)
+    {
+        min = b;
+        max = a;
+    }
+    if (max < c)
+        max = c;
+    if (c < min)
+        min = c;
 */
