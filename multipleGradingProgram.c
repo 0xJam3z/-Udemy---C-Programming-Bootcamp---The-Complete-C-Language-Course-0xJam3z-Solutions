@@ -7,7 +7,7 @@ int main()
 {
     float inputGrade;
     printf("Input your grade: ");
-    scanf("%f", inputGrade);
+    scanf("%f", &inputGrade);
     if (inputGrade >= 80)
         printf("Excellent job!");
     else if (inputGrade >= 60)
