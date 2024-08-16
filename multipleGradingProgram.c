@@ -11,9 +11,9 @@ int main()
     printf("Input your grade: ");
     scanf("%f", &inputGrade);
     if (inputGrade >= 80)
-        printf("Excellent job!");
+        printf("Excellent job!\n");
     else if (inputGrade >= 60)
-        printf("Not bad!");
+        printf("Not bad!\n");
     else
-        printf("Oh, you failed.");
+        printf("Oh, you failed.\n");
 }
