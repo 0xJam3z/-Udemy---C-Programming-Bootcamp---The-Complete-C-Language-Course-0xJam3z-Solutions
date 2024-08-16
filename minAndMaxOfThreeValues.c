@@ -35,3 +35,6 @@ int main()
     printf("%d is min, %d is max\n", min, max);
     return 0;
 }
+/*
+So we have a useless if condition here but I've already created this as a solution. Just know if you skim over this hopefully you'll see an if statement we can cut out!
+*/
