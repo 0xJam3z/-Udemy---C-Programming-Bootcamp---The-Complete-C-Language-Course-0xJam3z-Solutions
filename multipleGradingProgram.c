@@ -16,4 +16,5 @@ int main()
         printf("Not bad!\n");
     else
         printf("Oh, you failed.\n");
+    return 0;
 }
