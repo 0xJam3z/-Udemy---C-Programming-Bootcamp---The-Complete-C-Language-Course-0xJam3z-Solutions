@@ -23,7 +23,7 @@ int main()
         printf("Grade between 60-69 \n");
         break;
     case 'F':
-        printf("Grade between 50-59 \n");
+        printf("Grade between 0-59 \n");
         break;
     default:
         printf("Not a correct input. \n");
