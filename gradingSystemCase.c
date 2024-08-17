@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-main()
+int main()
 {
     char grade;
     printf("Enter your grade (A-F): ");
