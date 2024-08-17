@@ -26,7 +26,7 @@ main()
         printf("Grade between 50-59 \n");
         break;
     default:
-        print("Not a correct input. \n");
+        printf("Not a correct input. \n");
         break;
     }
     return 0;
