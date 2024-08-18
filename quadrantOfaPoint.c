@@ -1,4 +1,4 @@
-// Take input from x,y values and determine if the location is in Quadrant 1, 2, 3, or 4.
+// Take input from x,y values and determine if the location is in Quadrant 1, 2, 3, or 4. Made by 0xJam3z
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -17,6 +17,6 @@ int main() {
     else if (x > 0 && y < 0)
         printf("Coordinates %d,%d are in Quadrant 4. \n", x,y);
     else
-        printf("Invalid input. You cannot use 0 to reach a quadrant.");
+        printf("Invalid input. You cannot use 0 to reach a quadrant.\n");
     return 0;
 }
