@@ -4,7 +4,7 @@
 
 int main()
 {
-  // test
+  
   int year, leapYear, month, day;
 
   printf("Input the year: ");
