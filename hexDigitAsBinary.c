@@ -69,30 +69,6 @@ int main()
       break;
     }
   }
-  else if (userInput >= 'a' && userInput <= 'f')
-  {
-    switch (userInput)
-    {
-    case 'a':
-      printf("1010\n");
-      break;
-    case 'b':
-      printf("1011\n");
-      break;
-    case 'c':
-      printf("1100\n");
-      break;
-    case 'd':
-      printf("1101\n");
-      break;
-    case 'e':
-      printf("1110\n");
-      break;
-    case 'f':
-      printf("1111\n");
-      break;
-    }
-  }
   else
   {
     printf("Invalid input.\n");
