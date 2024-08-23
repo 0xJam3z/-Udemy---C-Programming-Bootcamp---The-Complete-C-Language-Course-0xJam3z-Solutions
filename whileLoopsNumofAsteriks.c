@@ -4,14 +4,14 @@
 #include <stdlib.h>
 
 int main() {
-    int userInput;
+    int numOfAsterisks;
+    int i = 0;
     printf("Input how many asterisks you'd like printed to screen: ");
-    scanf("%d", &userInput);
-    int count = 1;
-    while (count <= userInput)
+    scanf("%d", &numOfAsterisks);
+    while (i < numOfAsterisks)
     {
         printf("*");
-        count +=1;
+        i++;
     }
     printf("\n");
     return 0;
