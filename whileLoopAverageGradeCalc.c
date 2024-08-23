@@ -16,6 +16,6 @@ int main() {
         scanf("%d", &inputGrade);
     }
     
-    printf("The average grade of entered grades is %d \n", gradeAverage/i);
+    printf("The average grade of entered grades is %.1f \n", (float)gradeAverage/i);
     return 0;
 }
