@@ -1,4 +1,4 @@
-// Take two inputs. Number and power. Use for loop to perform calculation.
+// Take two inputs. Number and power. Use for loop to perform calculation. Written by 0xJam3z
 #include <stdio.h>
 #include <stdlib.h>
 
